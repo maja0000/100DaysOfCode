@@ -1,6 +1,8 @@
 import React from 'react';
-
+import Header from './components/Header/Header';
 import './App.css';
+import DoodleCard from './components/DoodleCard/DoodleCard';
+import doodleData from './components/doodleData';
 
 function App() {
   return (
@@ -21,6 +23,10 @@ function App() {
           <div className="twitter-logo"></div>{' '}
         </a>
       </div>
+      <Header />
+      {doodleData.map((doodle) => {
+        return <DoodleCard key={doodle.id} doodle={doodle} />;
+      })}
     </div>
   );
 }

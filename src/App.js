@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header/Header';
 import './App.css';
 import DoodleCard from './components/DoodleCard/DoodleCard';
-import doodleData from './components/doodleData';
+import doodleData from './components/DoodleCard/doodleData';
 
 function App() {
   return (

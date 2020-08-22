@@ -1,6 +1,5 @@
 import React from 'react';
 import './DoodleCard.css';
-// import screboard from '../../vids/scoreboard.mov';
 
 export default function DoodleCard({ doodle }) {
   console.log(doodle.video);
@@ -11,12 +10,12 @@ export default function DoodleCard({ doodle }) {
         <p>{doodle.description}</p>
       </div>
       <video
+        className="video"
         style={{ margin: '0 auto' }}
-        width="320"
-        height="240"
+        // 854 x 480
+
         controls
         src={doodle.video}
-        // src={screboard}
       ></video>
     </div>
   );

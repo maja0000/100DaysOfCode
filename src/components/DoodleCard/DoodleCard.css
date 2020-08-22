@@ -15,6 +15,10 @@
   width: 50%;
   padding: 20px;
 }
+.video {
+  width: 50%;
+  height: auto;
+}
 @media (max-width: 700px) {
   .card-wrapper {
     flex-direction: column;
@@ -22,5 +26,8 @@
   }
   .desc {
     width: 100%;
+  }
+  .video {
+    width: 90%;
   }
 }

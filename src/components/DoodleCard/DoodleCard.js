@@ -3,7 +3,6 @@ import './DoodleCard.css';
 import Button from './Button';
 
 export default function DoodleCard({ doodle }) {
-  // console.log('ss', doodle.language);
   return (
     <div className="card-wrapper">
       <div className="desc">

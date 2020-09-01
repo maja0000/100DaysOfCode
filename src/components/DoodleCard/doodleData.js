@@ -4,7 +4,7 @@ let doodleData = [
     title: 'Scoreboard',
     language: ['Vanilla js', 'css'],
     description:
-      'Score tracking application with a stopwatch. User can add and remove players as well as assign/remove points to each of them. App will keep track of all players number and total points ',
+      'Score tracking application with a stopwatch. Users can add and remove players as well as assign/remove points to each of them. The app will keep track of all players number and total points ',
     video:
       'https://res.cloudinary.com/dmiwizanu/video/upload/v1598083073/scoreboard_i7qzak.mov',
   },
@@ -12,9 +12,9 @@ let doodleData = [
     id: 1,
     title: 'User/ company generator',
     language: ['TypeScript'],
-    description: `After learning basics of TypeScript I've started building small projects with it. Here is a 
-a random data generator. I created two markers based on langtitude and longtitude, one for a user,one for a company. 
-I used google maps and faker for the data.  `,
+    description: `After learning the basics of TypeScript I've started building small projects with it. Here is a 
+    random data generator. I created two markers based on longitude and latitude, one for a user, one for a company. 
+    I used google maps and faker for the data.  `,
     video:
       'https://res.cloudinary.com/dmiwizanu/video/upload/v1598954797/Screen_Recording_2020-09-01_at_12.04.35_vlgc20.mov',
   },
@@ -30,7 +30,7 @@ I used google maps and faker for the data.  `,
   {
     id: 3,
     title: 'Invitation manager',
-    description: `App created for my friend's goodbye party :) User is able to add and remove invitees, edit their name. Each invitation can be marked as 'confirmed' and edited. User can sort invitations depending on the status. `,
+    description: `App created for my friend's goodbye party :) User is able to add and remove invitees, edit their name. Each invitation can be marked as 'confirmed' and edited. Users can sort invitations depending on the status. `,
     language: ['Vanilla js', 'css'],
     video:
       'https://res.cloudinary.com/dmiwizanu/video/upload/v1598083219/invitations_qly5dq.mov',
@@ -39,7 +39,7 @@ I used google maps and faker for the data.  `,
     id: 4,
     title: 'Quiz',
     description:
-      'General knowelage quiz. Questions are generated from Open Trivia API.',
+      'General knowledge quiz. Questions are generated from Open Trivia API.',
     language: ['React', 'TypeScript'],
     video:
       'https://res.cloudinary.com/dmiwizanu/video/upload/v1598083255/quiz_wr2k31.mov',
@@ -60,7 +60,7 @@ I used google maps and faker for the data.  `,
     title: 'Logo Animation',
     language: ['css'],
     description:
-      'Css exercise, letter paths are exported from Figma. Final effect achieved by using stroke-dasharray, stroke-dashoffset and delay between each letter.',
+      'Css exercise, letter paths are exported from Figma. The final effect achieved by using stroke-dasharray, stroke-dashoffset and delay between each letter.',
     video:
       'https://res.cloudinary.com/dmiwizanu/video/upload/v1598083257/logo-animation_g0xyvl.mov',
   },

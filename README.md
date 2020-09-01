@@ -1,1 +1,0 @@
-![](./src/scoreboard.mov)

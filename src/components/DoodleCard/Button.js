@@ -37,9 +37,5 @@ export const Label = styled('button')`
   }}
 `;
 export default function Button(props) {
-  let leng = props.props.language;
-  // console.log('d', leng);
-  console.log(props);
-
   return <Label {...props}> {props.variant}</Label>;
 }

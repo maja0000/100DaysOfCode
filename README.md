@@ -1,1 +1,1 @@
-![](./pic/)
+![](./src/scoreboard.mov)

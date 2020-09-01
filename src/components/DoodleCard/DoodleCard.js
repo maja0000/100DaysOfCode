@@ -1,13 +1,25 @@
 import React from 'react';
 import './DoodleCard.css';
+import Button from './Button';
 
 export default function DoodleCard({ doodle }) {
-  console.log(doodle.video);
+  // console.log('ss', doodle.language);
   return (
     <div className="card-wrapper">
       <div className="desc">
         <h1>{doodle.title}</h1>
         <p>{doodle.description}</p>
+        {doodle.language.length > 1 ? (
+          doodle.language.map((each, index) => (
+            <Button key={index} variant={each} props={each}>
+              {each}
+            </Button>
+          ))
+        ) : (
+          <Button variant={doodle.language.join()} props={doodle}>
+            {doodle.language}
+          </Button>
+        )}
       </div>
       <video
         className="video"

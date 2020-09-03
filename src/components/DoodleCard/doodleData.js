@@ -20,7 +20,7 @@ let doodleData = [
   },
   {
     id: 2,
-    title: 'Event managment manager ',
+    title: 'Event management manager ',
     description:
       'Layout inspired by Trello and Jira. Evens are generated from SeatGeek API. Drag and drop functionality from Beautiful Drag and Drop',
     language: ['Vanilla js', 'React', 'css'],

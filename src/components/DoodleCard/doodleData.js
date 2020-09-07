@@ -1,5 +1,14 @@
 let doodleData = [
   {
+    id: 0,
+    title: 'Shopping cart',
+    language: ['React', 'css'],
+    description:
+      'Products from Amazon API, sort by highest/lowest price, search by name. Individually add/remove to/from a cart, calculate total price. ',
+    video:
+      '  https://res.cloudinary.com/dmiwizanu/video/upload/v1599486333/Screen_Recording_2020-09-07_at_15.43.45_rqp4pf.mov',
+  },
+  {
     id: 1,
     title: 'Scoreboard',
     language: ['Vanilla js', 'css'],
